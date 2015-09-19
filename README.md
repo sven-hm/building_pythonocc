@@ -51,5 +51,8 @@ Run `build_scripts/build_pythonocc.sh`.
 Go to `${PYTHONOCC_SOURCES_DIR}/test`, `export PYTHONPATH=${PYTHONOCC_INSTALL_DIR}` and run `python core_smesh_unittest.py` (or `run_tests.py` for all the other unit tests).
 
 ### 10. examples
-Go to `${PYTHONOCC_SOURCES_DIR}/example`, `export PYTHONPATH=${PYTHONOCC_INSTALL_DIR}` and run `python core_smesh_netgen*`.
+Go to `${PYTHONOCC_SOURCES_DIR}/examples`, `export PYTHONPATH=${PYTHONOCC_INSTALL_DIR}` and run `python core_smesh_netgen*`.
 
+![core_smesh_netgen.py](https://github.com/sven-hm/building_pythonocc/blob/master/pythonocc_smesh_netgen_surface.jpg)
+
+![core_smesh_netgen.py](https://github.com/sven-hm/building_pythonocc/blob/master/pythonocc_smesh_netgen_volume.jpg)
